@@ -1,0 +1,72 @@
+#kore{
+    margin-bottom: 10px;
+    padding-right: 35px;
+}
+#Ko{
+    padding-right: 35px;
+}
+#sec-btn {
+    background-color: rgb(14, 247, 2);
+    margin-top: 10px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 255, 64);
+    border-radius: 3px;
+}
+#fst-btn, a{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 200px;
+}
+.dot-line{
+    margin: 5px 0;
+}
+body{
+    background-color: rgb(220, 219, 219);
+    
+}
+h3{
+    padding-top: 50px;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 0px;
+    color: rgb(7, 109, 150);
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin: auto;
+    width: 20rem;
+    height: 25rem;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    
+}
+.frgt{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: blue;
+}
+.ali{
+    width: .1rem;
+    height: .1rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
