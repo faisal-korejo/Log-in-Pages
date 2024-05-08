@@ -1,0 +1,139 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+    color: #fca311;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: #14213d;
+    color: #fca311;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 23px;
+}
+a{
+    text-decoration: none;
+    color: #fca311;
+}
+a:hover{
+    color: rgb(227, 225, 230);
+    font-size: 1.2rem;
+}
+#element1{
+    font-size: 1.8rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 13vh 0;
+    
+}
+.firstSection > div{
+    width: 30%;
+    border-radius: 5px;
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 70px;
+}
+.rightSection img{
+    width: 80%;
+    margin: 10px; 
+    border-radius: 50%; 
+    border: solid 6px #fca311; 
+
+}
+
+
+.secondSection{
+    max-width: 75vw;
+    margin: auto;
+    height: 90vh;
+}
+.text_Orange{
+    color: #e1a74a;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 2px;
+    background-color: #fca311;
+    margin: 0 100px;
+}
+.img-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -12px;
+}
+.secondSection .box{
+    background-color: #fca311;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex; 
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 18px;
+}
+.vertical-desc{
+    position: relative;
+    top: 82px;
+    color: #e1a74a;
+    width: 150px;
+    font-size: 9px;
+}
+main hr{
+    border: 0;
+    background-color: #fca311;
+    height: 1.2px;
+    margin: 90px 84px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fca311;
+    color: #000000;
+    height: 233px;
+    padding: 23px 122px;
+}
+
+.footer ul{
+    list-style: none;
+    margin-top: 40px;
+}
+.last{
+    margin: 23px;
+    padding-left: 430px;
+    font-size: 30px;
+    color: #fca311;
+    background-color: #000000;
+}
+.Name{
+    color: #e5e5e5;
+    animation: nameAnimation 3s ease-in 0s infinite normal;
+}
+#element{
+    color: #e5e5e5;
+}
